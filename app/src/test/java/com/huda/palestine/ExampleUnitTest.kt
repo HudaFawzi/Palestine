@@ -1,4 +1,4 @@
-package com.example.palestine
+package com.huda.palestine
 
 import org.junit.Test
 

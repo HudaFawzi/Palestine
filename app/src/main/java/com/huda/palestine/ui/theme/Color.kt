@@ -1,4 +1,4 @@
-package com.example.palestine.ui.theme
+package com.huda.palestine.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
