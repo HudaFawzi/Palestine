@@ -1,6 +1,6 @@
 package com.huda.palestine.data.local
 
-import com.example.palestine.R
+import com.huda.palestine.R
 import com.huda.palestine.model.City
 
 object LocalCitiesDataProvider {
