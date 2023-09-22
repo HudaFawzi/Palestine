@@ -70,5 +70,19 @@
     <string name="rahat_pop">215,452</string>
     <string name="rahat_area">74.1 km²</string>
     <string name="palestine_map">Palestine Map</string>
+    <string name="west_bank">West Bank</string>
+    <string name="gaza">Gaza</string>
+    <string name="al_naqab">Al Naqab</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="navigation_rail">Navigation Rail</string>
+    <string name="navigation_bottom">Navigation Bottom</string>
+    <string name="navigation_back">Back</string>
+    <string name="continue_composing">Continue Composing</string>
+    <string name="move_to_gaza">Move to gaza\n</string>
+    <string name="move_to_al_naqab">Move to Al Naqab</string>
+    <string name="pale">PAL</string>
+    <string name="palee">PALEE</string>
+    <string name="profile">profile</string>
+    <string name="map">Map</string>
 
 </resources>

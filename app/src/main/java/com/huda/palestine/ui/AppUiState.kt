@@ -1,10 +1,10 @@
 package com.huda.palestine.ui
 
+import com.huda.palestine.data.Section
 import com.huda.palestine.data.local.LocalCitiesDataProvider
-import com.huda.palestine.data.local.Section
 import com.huda.palestine.model.City
 
-data class CityUiState(
+data class AppUiState(
     val sections: Map<Section, List<City>> = emptyMap(),
     val currentSection: Section = Section.MAP,
     val currentSelectedCity: City = LocalCitiesDataProvider.defaultCity,

@@ -1,6 +1,7 @@
 package com.huda.palestine.data.local
 
 import com.huda.palestine.R
+import com.huda.palestine.data.Section
 import com.huda.palestine.model.City
 
 object LocalCitiesDataProvider {
@@ -71,7 +72,7 @@ object LocalCitiesDataProvider {
         ), City(
             R.string.khan_yunis,
             R.drawable.hebron,
-            Section.WEST_BANK,
+            Section.GAZA,
             R.string.khan_yunis_pop,
             R.string.khan_yunis_area,
             R.string.khan_yunis_description
@@ -107,10 +108,11 @@ object LocalCitiesDataProvider {
     )
 
     val defaultCity = City(
-        cityName = R.string.jerusalem, section = Section.WEST_BANK
+        R.string.hebron,
+        R.drawable.hebron,
+        Section.WEST_BANK,
+        R.string.hebron_pop,
+        R.string.hebron_area,
+        R.string.hebron_description
     )
-}
-
-enum class Section {
-    MAP, WEST_BANK, GAZA, AL_NAQAB
 }
