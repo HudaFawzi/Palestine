@@ -16,7 +16,7 @@ fun ListAndDetailContent(
     cityUiState: AppUiState, onCityCardPressed: (City) -> Unit, modifier: Modifier = Modifier
 ) {
     Row(modifier = modifier) {
-        CityListOnlyContent(
+        CityListOnlyAndMapContent(
             cityUiState = cityUiState,
             onCityCardPressed = onCityCardPressed,
             modifier = Modifier

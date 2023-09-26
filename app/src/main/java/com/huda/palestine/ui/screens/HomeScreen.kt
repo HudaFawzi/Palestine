@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.wrapContentWidth
@@ -33,6 +34,7 @@ import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.res.vectorResource
+import androidx.compose.ui.unit.dp
 import com.huda.palestine.R
 import com.huda.palestine.data.Section
 import com.huda.palestine.model.City
@@ -153,14 +155,11 @@ private fun AppContent(
                         modifier = Modifier.weight(1f)
                     )
                 } else {
-                    CityListOnlyContent(
+                    CityListOnlyAndMapContent(
                         cityUiState = uiState,
                         onCityCardPressed = onCityCardPressed,
-                        modifier = Modifier
-                            .weight(1f)
-                            .padding(
-                                horizontal = dimensionResource(R.dimen.list_only_horizontal_padding)
-                            )
+                        modifier = Modifier.weight(1f)
+
                     )
 
                 }
@@ -175,6 +174,7 @@ private fun AppContent(
                         onTabPressed = onTabPressed,
                         navigationItemContentList = navigationItemContentList,
                         modifier = Modifier
+                            .height(56.dp)
                             .fillMaxWidth()
                             .testTag(bottomNavigationContentDescription)
                     )
