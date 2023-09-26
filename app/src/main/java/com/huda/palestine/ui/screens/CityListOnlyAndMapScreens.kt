@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -27,13 +28,13 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.huda.palestine.R
 import com.huda.palestine.data.Section
@@ -49,14 +50,15 @@ fun CityListOnlyAndMapContent(
         val cities = cityUiState.currentSectionCities
         LazyColumn(
             modifier = modifier.padding(
-                    horizontal = dimensionResource(R.dimen.list_only_horizontal_padding)
-                ),
+                horizontal = dimensionResource(R.dimen.list_only_horizontal_padding)
+            ),
             contentPadding = PaddingValues(0.dp, 8.dp),
             verticalArrangement = Arrangement.spacedBy(dimensionResource(R.dimen.list_item_vertical_spacing)),
 
             ) {
             items(cities, key = { city -> city.cityName }) { city ->
-                CityListItem(city = city,
+                CityListItem(
+                    city = city,
                     selected = false,
                     onCardClick = { onCityCardPressed(city) })
             }
@@ -87,7 +89,7 @@ fun CityListOnlyAndMapContent(
                     // add transformable to listen to multitouch transformation events
                     // after offset
                     .transformable(state = state),
-                contentScale = ContentScale.FillWidth
+                contentScale = ContentScale.FillHeight
             )
         }
     }
@@ -112,38 +114,33 @@ private fun CityListItem(
             CityListImageItem(
                 city = city, modifier = Modifier.size(dimensionResource(R.dimen.card_image_height))
             )
+
             Column(
                 modifier = Modifier
                     .padding(
                         vertical = dimensionResource(R.dimen.padding_small),
                         horizontal = dimensionResource(R.dimen.padding_medium)
                     )
-                    .weight(1f)
+                    .fillMaxSize()
+                    .weight(1f),
+                verticalArrangement = Arrangement.Center,
+//                horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
                     text = stringResource(city.cityName),
-                    style = MaterialTheme.typography.titleMedium,
-                    modifier = Modifier.padding(bottom = dimensionResource(R.dimen.card_text_vertical_space))
+                    style = MaterialTheme.typography.displaySmall,
+                    modifier = Modifier.padding(bottom = dimensionResource(R.dimen.card_text_vertical_space)),
                 )
-                Row {
-                    Text(
-                        text = "Population: ",
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.secondary,
-                        overflow = TextOverflow.Ellipsis,
-                        maxLines = 3
-                    )
-                    Text(
-                        text = stringResource(city.population),
-                        style = MaterialTheme.typography.bodySmall,
-                        color = MaterialTheme.colorScheme.secondary,
-                        overflow = TextOverflow.Ellipsis,
-                        maxLines = 3
-                    )
-
-                }
-
+                Text(
+                    text = "Pop: " + stringResource(city.population),
+                    style = MaterialTheme.typography.bodySmall,
+                )
+                Text(
+                    text = stringResource(city.area),
+                    style = MaterialTheme.typography.bodySmall,
+                )
             }
+
         }
     }
 }
@@ -157,7 +154,13 @@ private fun CityListImageItem(city: City, modifier: Modifier = Modifier) {
             painter = painterResource(city.cityImage),
             contentDescription = null,
             alignment = Alignment.Center,
-            contentScale = ContentScale.Crop
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.clip(
+                RoundedCornerShape(
+                    topEnd = 0.dp, topStart = 16.dp, bottomEnd = 0.dp, bottomStart = 16.dp
+                )
+            )
+
         )
     }
 }
