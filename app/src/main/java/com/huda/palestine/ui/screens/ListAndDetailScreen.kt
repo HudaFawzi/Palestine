@@ -8,6 +8,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.dimensionResource
 import com.huda.palestine.R
+import com.huda.palestine.data.Section
 import com.huda.palestine.model.City
 import com.huda.palestine.ui.AppUiState
 
@@ -16,6 +17,7 @@ fun ListAndDetailContent(
     cityUiState: AppUiState, onCityCardPressed: (City) -> Unit, modifier: Modifier = Modifier
 ) {
     Row(modifier = modifier) {
+
         CityListOnlyAndMapContent(
             cityUiState = cityUiState,
             onCityCardPressed = onCityCardPressed,
@@ -25,11 +27,14 @@ fun ListAndDetailContent(
                     horizontal = dimensionResource(R.dimen.list_only_horizontal_padding)
                 )
         )
-        val activity = LocalContext.current as Activity
-        CityDetailsScreen(
-            cityUiState = cityUiState, onBackPressed = {
-                activity.finish()
-            }, modifier = modifier
-        )
+        if (cityUiState.currentSection != Section.MAP) {
+            val activity = LocalContext.current as Activity
+            CityDetailsScreen(
+                cityUiState = cityUiState, onBackPressed = {
+                    activity.finish()
+                }, modifier = modifier
+            )
+        }
+
     }
 }
