@@ -86,7 +86,7 @@ fun CityDetailsScreen(
             }
 
             Text(
-                text = stringResource(LocalCitiesDataProvider.defaultCity.description),
+                text = stringResource(cityUiState.currentSelectedCity.description),
                 style = MaterialTheme.typography.bodyMedium,
                 modifier = Modifier.padding(16.dp, 0.dp, 16.dp, 16.dp)
             )
