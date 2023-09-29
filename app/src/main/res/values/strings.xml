@@ -1,109 +1,175 @@
 <resources>
     <string name="app_name">Palestine</string>
+
     <string name="hebron">Hebron</string>
-    <string name="hebron_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="hebron_pop">215,452</string>
+    <string name="hebron_description">Hebron is a hauntingly beautiful, ancient city twisted and torn by decades of unrest and conflict. It is the largest city in the West Bank, and second largest in Palestine after Gaza. It is home to around 215,000 Palestinians. Its Old City of stone roofs, archways and never-ending alleyways is the perfect playground for the sensory delight of the markets and bazaars. It is also a modernising city, home to Hebron University and the Palestine Polytechnic University. Hebron is a hub of trade, primarily with the sale of marble from nearby quarries. The area is also renowned for grapes, figs, limestone, pottery workshops and glassblowing factories, as well as the major dairy product manufacturer, al-Junaidi.</string>
+    <string name="hebron_pop">215,452 (2016)</string>
     <string name="hebron_area">74.1 km²</string>
+
+    <string name="beit_jala">Beit Jala</string>
+    <string name="beit_jala_description">Beit Jala is a Palestinian city in Bethlehem Governorate located at 1.8km (horizontal distance) west of Bethlehem City. Beit Jala is bordered by Bethlehem city to the east, Jerusalem city and Gilo settlement to the north, Al Walaja and Battir villages to the west, and Ad Doha city and Al Khader town to the south</string>
+    <string name="beit_jala_pop">13,484 (2017)</string>
+    <string name="beit_jala_area">13 km²</string>
+
+    <string name="beit_sahour">Beit Sahour</string>
+    <string name="beit_sahour_description">The city of Beit Sahour and its Old Core are just a stone-throw away from Bethlehem. The name Beit Sahour is a subject of controversy but the most accepted interpretation is related to the shepherds who stay up till dawn, Sahar in Arabic, to watch over their flock. This interpretation is compatible with the tradition that considers the valley where the city is nestled, as the Shepherds’ field and underlines the links of the town with Bethlehem, where Jesus was born. The city is adamant about maintaining its traditions but has been at the vanguard of creative resistance movements against the Israeli Occupation.</string>
+    <string name="beit_sahour_pop">13,281 (2017)</string>
+    <string name="beit_sahour_area">6.9 km²</string>
 
     <string name="ramallah">Ramallah</string>
     <string name="ramallah_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="ramallah_pop">215,452</string>
-    <string name="ramallah_area">74.1 km²</string>
+    <string name="ramallah_pop">38,998 (2017)</string>
+    <string name="ramallah_area">16.3 km²</string>
+
+    <string name="sabastia">Sabastia</string>
+    <string name="sabastia_description">Sebastia is a Palestinian village of over 4,500 inhabitants, located in the Nablus Governorate of the State of Palestine, some 12 kilometers northwest of the city of Nablus. Sebastia is believed to be one of the oldest continuously inhabited places in the West Bank.</string>
+    <string name="sabastia_pop">4,114 (2007)</string>
+    <string name="sabastia_area">4.8 km²</string>
 
     <string name="nablus">Nablus</string>
-    <string name="nablus_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="nablus_pop">215,452</string>
-    <string name="nablus_area">74.1 km²</string>
+    <string name="nablus_description">Nablus is an important economic governorate to the north of Jerusalem, where there is a great deal of industry involved in olives, such as oil and soap.\nThe large city is known as the uncrowned Queen of Palestine, due to its majestic beauty and rich history. Towering above the city is Mount Jarzim, where the world’s only settlement of Samaritans still exists.\nNablus governorate is also home to the excellently restored Roman ruins at Sebastiya, which is becoming a very popular day trip for tourists and has the facilities – and souvenir shops – to cater for it.</string>
+    <string name="nablus_pop">156,906 (2017)</string>
+    <string name="nablus_area">28.6 km²</string>
 
     <string name="jericho">Jericho</string>
-    <string name="jericho_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="jericho_pop">215,452</string>
-    <string name="jericho_area">74.1 km²</string>
+    <string name="jericho_description">Jericho governorate spans from the Dead Sea to the mountains on Ramallah’s eastern flank. The city itself is an oasis in the desert, a veritable hive of captivating history but with an almost party-like atmosphere due to the frankly ridiculous heat.\nThe city prides itself as the oldest continuously inhabited place in the world, and it has the archeological sites to match that lofty claim.</string>
+    <string name="jericho_pop">20,300 (2006)</string>
+    <string name="jericho_area">608 km²</string>
 
     <string name="bethlehem">Bethlehem</string>
-    <string name="bethlehem_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="bethlehem_pop">215,452</string>
-    <string name="bethlehem_area">74.1 km²</string>
+    <string name="bethlehem_description">Bethlehem is one of the most beautiful and most visited parts of Palestine.\nIts principle city, Bethlehem, is a fascinating place packed with holy spots and historical sites. But venture away from the city and there are many more surprises waiting to be explored, like the breathtaking Mar Saba monastery, located at the heart of a great valley.\nThe rolling hills to the south are home to the luscious, green village of Battir, while the Bethlehem suburbs of Beit Jala and Beit Sahour are also brimming with adventure. The Bethlehem landscape of rolling green hills is some of the most spectacular in Palestine.</string>
+    <string name="bethlehem_pop">28,591 (2017)</string>
+    <string name="bethlehem_area">10.611 km²</string>
 
     <string name="tulkarm">Tulkarm</string>
-    <string name="tulkarm_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="tulkarm_pop">215,452</string>
-    <string name="tulkarm_area">74.1 km²</string>
+    <string name="tulkarm_description">Tulkarem governorate covers the northwestern corner of the West Bank, with the excellent city of Tulkarem at its heart. The city is small but bustling, easily navigable on foot and extremely welcoming.\nThe landscape is punctuated by tall mountains and patches of forest, with brightly coloured cubic homes dotting hills like hundreds and thousands.</string>
+    <string name="tulkarm_pop">66,299 (2019)</string>
+    <string name="tulkarm_area">28.8 km²</string>
 
     <string name="jenin">Jenin</string>
-    <string name="jenin_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="jenin_pop">215,452</string>
-    <string name="jenin_area">74.1 km²</string>
+    <string name="jenin_description">Jenin, the northernmost city and governorate in the West Bank, is a beautiful region of rolling green hills and thick orchards of fig and carob trees.\nJenin city itself is positively buzzing, from the open-air markets to the Freedom Theatre – a unique unifying project born out of the large refugee camp.\nIn the surrounding countryside there are many cute agricultural villages, exquisitely restored old towns and sites such as the Burqin Christian church.</string>
+    <string name="jenin_pop">39,004 (2007)</string>
+    <string name="jenin_area">37.3 km²</string>
 
     <string name="haifa">Haifa</string>
-    <string name="haifa_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="haifa_pop">215,452</string>
-    <string name="haifa_area">74.1 km²</string>
+    <string name="haifa_description">Haifa before occupation was made up of the following neighborhoods:\nThe Old City, al-Khamrah square, Suq al-\'Abyad, al-Markaz al-Kadeem, Daraj Saqreiq, Hadarah Ha Carmel, al-\'Abasyah, al-Nabi Sha\'nan (al-Halaqah), Tel al-Samak, Beit Kaleim, Madraset al-\'Anbiya, al-Khayat Coast (southeast), Wadi al-Salib, Wadi al-Nisnass, Burg al-Salam, Central station/al-Markaz, al-Hamra square (now Paris Square), Rashmaya, Ra\'as al-Carmel, The Germany Colony (built in the 1860s southwest of the city centre) … etc.\nIndustries: Palestine Oil Refinery (located northeast) was founded in 1933 to refine Iraqi oil, cement, cigarettes (Qaraman, Deik, iw-Salti), publications (Haifa had three Arabic newspapers), textiles, olive and grape presses, several grain mills, ice production, wood processing, soap, fishing (mostly Arab-owned), and industrial machinery for the railroads.</string>
+    <string name="haifa_pop">279,247 (2016)</string>
+    <string name="haifa_area">63.66 km²</string>
 
     <string name="jaffa">Jaffa</string>
-    <string name="jaffa_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="jaffa_pop">215,452</string>
-    <string name="jaffa_area">74.1 km²</string>
+    <string name="jaffa_description">Jaffa was well known for its cash crops as citrus and Bananas. In 1945, Arabs planted 146,316 dunums with Citrus.\nJaffa was the most advanced city in Palestine in the development of its commercial, banking, fishing, and agriculture industries. Jaffa had many factories specializing in cigarette making, cement making, tile and roof tile production, iron casting, cotton processing plants, traditional handmade carpets, leather products, wood box industry for Jaffa orange, textile, presses and publications. It should also be noted that the majority of all publications and newspapers in Palestine were published in Jaffa.</string>
+    <string name="jaffa_pop">435,855 (2016)</string>
+    <string name="jaffa_area">52 km²</string>
 
     <string name="safed">Safed</string>
-    <string name="Safed_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="Safed_pop">215,452</string>
-    <string name="Safed_area">74.1 km²</string>
+    <string name="safed_description">Safad, a historic regional capital of the Galilee in interior Palestine and at the margins of the central Ottoman government, experienced a significant new chapter in its history in the mid-1800s. Recovering slowly from the earthquake of 1837, the town was dramatically changed by the enactment of the Tanzimat reforms carried out by the Ottoman state, including the 1858 Land Law and the 1864 Law of the Provinces.</string>
+    <string name="safed_pop">36,094 (2019)</string>
+    <string name="safed_area">63.7 km²</string>
 
     <string name="tubas">Tubas</string>
-    <string name="tubas_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="tubas_pop">215,452</string>
-    <string name="tubas_area">74.1 km²</string>
+    <string name="tubas_description">Tubas governorate is the richly agricultural northeastern corner of the West Bank. Its villages are charming stone affairs built around farms. There is a convivial countryside atmosphere in Tubas city and its surrounding settlements, with sheep and donkeys prowling the streets while old men sit outside in the sun drinking tea and playing games.\nTubas city is an important economic hub for the area, with a surprisingly smart and attractive centre.</string>
+    <string name="tubas_pop">21,431 (2017)</string>
+    <string name="tubas_area">295.1 km²</string>
 
-    <string name="ad_dhahiriya">Ad_Dhahiriya</string>
-    <string name="ad_dhahiriya_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="ad_dhahiriya_pop">215,452</string>
-    <string name="ad_dhahiriya_area">74.1 km²</string>
+<!--    <string name="ad_dhahiriya">Ad_Dhahiriya</string>-->
+<!--    <string name="ad_dhahiriya_description">Ad-Dhahiriya is located in the far south of the West Bank, approximately 22km south of Hebron and is considered the southern gate of the West Bank. It is built upon the ruins of the ancient Canaanite town of Goshen, where its ruler Sultan Al Dhahir made the city a strategic location within his sultanate. It is from this Sultan that Ad-Dhahiriya derives its name. Ad-Dhahiriya is surrounded by the lands of Beersheba and Al Samu’a and the villages of Al-Burj, Deir Al-Asal, Beit Al-Rush and Dura, and has a population of nearly 40,000 people, though this figure rises to approximately 60,000 when including the surrounding villages according to the Palestinian Central Bureau of Statistics figures from 2018. Ad-Dhahiriya urban centre has an area of 15,198 dunums, according to the municipality’s structural plan, while its surrounding areas include a total land area of 120,854 dunums which entails just over 70% of its historical area of 167,000 dunums. Al-Dahrieh is the third largest city within the governorate of Hebron following the cities of Hebron and Yatta and is the last major population center in the Southern West Bank.</string>-->
+<!--    <string name="ad_dhahiriya_pop">38,002 (2016)</string>-->
+<!--    <string name="ad_dhahiriya_area">74.1 km²</string>-->
 
     <string name="al_bireh">Al-Bireh</string>
-    <string name="al_bireh_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="al_bireh_pop">215,452</string>
-    <string name="al_bireh_area">74.1 km²</string>
+    <string name="al_bireh_description">Al-Bireh is a Palestinian city in the central West Bank, 15 kilometres (9.3 mi) north of Jerusalem. It is the capital of the Ramallah and al-Bireh Governorate of the State of Palestine. It is situated on the central ridge running through the West Bank and is 860 meters (2,820 ft) above sea level, covering an area of 22.4 square kilometres (8.6 sq mi). Al-Bireh is under the administration of the Palestinian National Authority (as part of Area A).\nBecause of its location, Al-Bireh served as an economic crossroad between the north and south, along the caravan route between Jerusalem and Nablus. </string>
+    <string name="al_bireh_pop">45,975 (2017)</string>
+    <string name="al_bireh_area">22.4 km²</string>
 
     <string name="qalqilya">Qalqilya</string>
-    <string name="qalqilya_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="qalqilya_pop">215,452</string>
-    <string name="qalqilya_area">74.1 km²</string>
+    <string name="qalqilya_description">Qalqilya is a relatively small governorate centred on its lively capital.\nThe city hums with activity, from the hectic main street to the pungent semi-covered streets of the fresh fruit and vegetable markets.\nThe surrounding countryside is peppered with charming little stone villages on the slopes of soaring hills, which still rely almost entirely on agriculture.</string>
+    <string name="qalqilya_pop">51,683 (2017)</string>
+    <string name="qalqilya_area">25.6 km²</string>
 
     <string name="jerusalem">Jerusalem</string>
-    <string name="jerusalem_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="jerusalem_pop">215,452</string>
-    <string name="jerusalem_area">74.1 km²</string>
+    <string name="jerusalem_description">Jerusalem is revered as the beating heart of Palestine, although many Palestinian residents have now moved to Ramallah after being evicted from their homes.\nIt is still a very special place, as would befit the home of the Dome of the Rock and al Aqsa mosque, one of the most important sites in Islam.\nJerusalem city is intoxicating, inescapable and unforgettable, from the beautiful walls stretching out from Damascus gate to the sensory paradise of the Old City souqs.\nSome of the larger surrounding municipalities include Al Ramm, Abu Diss and Al Eizariya.</string>
+    <string name="jerusalem_pop">874,186 (2016)</string>
+    <string name="jerusalem_area">125.1 km²</string>
+
+    <string name="salfit">Salfit</string>
+    <string name="salfit_description">Salfit is a Palestinian city in the central West Bank and the capital of the Salfit Governorate of the State of Palestine. Salfit is located at an altitude of 570 meters (1,870 ft). </string>
+    <string name="salfit_pop">10,911 (2017)</string>
+    <string name="salfit_area">27 km²</string>
+
+    <string name="attil">Attil</string>
+    <string name="attil_description">Attil is a Palestinian town in the Tulkarm Governorate in the eastern West Bank, 12 km northeast of Tulkarm. Attil is the connection point between the other villages and Tulkarm. It is bordered by Illar to the east; Baqa ash-Sharqiyya to the north; The Green Line to the west; and Deir al-Ghusun to the south.</string>
+    <string name="attil_pop">9,038 (2007)</string>
+    <string name="attil_area">7.3 km²</string>
+
+    <string name="yatta">Yatta</string>
+    <string name="yatta_description">Yatta, also known as Yattah or Yutta, is a Palestinian city located in the Hebron Governorate of the State of Palestine, in the West Bank, approximately 8 km south of the city of Hebron.</string>
+    <string name="yatta_pop">64,277 (2016)</string>
+    <string name="yatta_area">133 km²</string>
+
+    <string name="jabalia">Jabalia</string>
+    <string name="jabalia_description">Jabalia also Jabalya is a Palestinian city located 4 kilometers north of Gaza City. It is under the jurisdiction of the North Gaza Governorate, in the Gaza Strip. The Jabalia refugee camp is adjacent to the city to the north. The nearby town of Nazla is a part of the Jabalia municipality.</string>
+    <string name="jabalia_pop">172,704 (2017)</string>
+    <string name="jabalia_area">8 km²</string>
+
+    <string name="bani_suheila">Bani Suheila</string>
+    <string name="bani_suheila_description">Bani Suheila is a Palestinian town in the southern Gaza Strip part of the Khan Yunis Governorate.</string>
+    <string name="bani_suheila_pop">41,439 (2017)</string>
+    <string name="bani_suheila_area">8 km²</string>
+
+    <string name="beit_hanoun">Beit Hanoun</string>
+    <string name="beit_hanoun_description">Beit Hanoun or Beit Hanun is a city on the northeast edge of the Gaza Strip. It is located by the Hanoun stream.</string>
+    <string name="beit_hanoun_pop">52,237 (2017)</string>
+    <string name="beit_hanoun_area">8 km²</string>
+
+    <string name="beit_lahia">Beit Lahia</string>
+    <string name="beit_lahia_description">Beit Lahia or Beit Lahiya is a city in the Gaza Strip north of Jabalia, near Beit Hanoun. </string>
+    <string name="beit_lahia_pop">89,838 (2017)</string>
+    <string name="beit_lahia_area">8 km²</string>
 
     <string name="khan_yunis">Khan Yunis</string>
-    <string name="khan_yunis_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="khan_yunis_pop">215,452</string>
-    <string name="khan_yunis_area">74.1 km²</string>
+    <string name="khan_yunis_description">Khan Yunis is a city in the southern Gaza Strip, which lies only 4 kilometres (about 2.5 miles) east of the Mediterranean Sea, has a semi-arid climate with a temperature of 30 degrees Celsius maximum in summer and 10 degrees Celsius maximum in winter, with an annual rainfall of approximately 260 mm (10.2 in).</string>
+    <string name="khan_yunis_pop">205,125 (2017)</string>
+    <string name="khan_yunis_area">54.56 km²</string>
 
     <string name="rafah">Rafah</string>
-    <string name="rafah_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="rafah_pop">215,452</string>
-    <string name="rafah_area">74.1 km²</string>
+    <string name="rafah_description">Rafah is a Palestinian city in the southern Gaza Strip. It is the district capital of the Rafah Governorate, located 30 kilometers south of Gaza City.</string>
+    <string name="rafah_pop">171,899 (2017)</string>
+    <string name="rafah_area">63.1 km²</string>
 
     <string name="nuseirat">Nuseirat Camp</string>
-    <string name="nuseirat_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="nuseirat_pop">215,452</string>
-    <string name="nuseirat_area">74.1 km²</string>
+    <string name="nuseirat_description">Nuseirat refugee camp is a Palestinian refugee camp which is a busy and crowded camp located in the middle of the Gaza Strip, northeast of Deir al-Balah like the Bureij and Maghazi camps, and it takes its name from a local Bedouin tribe.</string>
+    <string name="nuseirat_pop">64,423 (2006)</string>
+    <string name="nuseirat_area">0.6 km²</string>
+
+    <string name="bureij">Bureij</string>
+    <string name="bureij_description">Bureij is a Palestinian refugee camp located in the central Gaza Strip east of the Salah al-Din Road in the Deir al-Balah Governorate. </string>
+    <string name="bureij_pop">30,059 (2006)</string>
+    <string name="bureij_area">0.5 km²</string>
+
+    <string name="maghazi">Maghazi</string>
+    <string name="maghazi_description">Maghazi is located in the Deir al-Balah Governorate in the central Gaza Strip. It is a Palestinian refugee camp that was established in 1949. According to the Palestinian Central Bureau of Statistics, the Refugee Camp had a population of 24,284 in mid-year 2006. The refugee camp is built on 559 dunums.</string>
+    <string name="maghazi_pop">22,536 (2006)</string>
+    <string name="maghazi_area">0.559 km²</string>
 
     <string name="deir_al_balah">Deir al Balah</string>
-    <string name="deir_al_balah_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="deir_al_balah_pop">215,452</string>
-    <string name="deir_al_balah_area">74.1 km²</string>
+    <string name="deir_al_balah_description">Deir al Balah is a Palestinian city in the central Gaza Strip and the administrative capital of the Deir el-Balah Governorate. It is located over 14 kilometres south of Gaza City. The city is known for its date palms, after which it is named.</string>
+    <string name="deir_al_balah_pop">306,663 (2021)</string>
+    <string name="deir_al_balah_area">14.7 km²</string>
+
+    <string name="north_gaza">North Gaza</string>
+    <string name="north_gaza_description">The North Gaza Governorate is one of the five Governorates of Palestine in the Gaza Strip which is administered by Palestine.</string>
+    <string name="north_gaza_pop">270,245 (2007)</string>
+    <string name="north_gaza_area">62 km²</string>
 
     <string name="rahat">Rahat</string>
-    <string name="rahat_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="rahat_pop">215,452</string>
-    <string name="rahat_area">74.1 km²</string>
+    <string name="rahat_description">Rahat is a predominantly Arab Bedouin city in the Southern District of Palestine. It is the largest Bedouin city in the world. Rahat is one of seven Bedouin townships in the Al-Naqab desert with approved plans and developed infrastructure.</string>
+    <string name="rahat_pop">71,437 (2019)</string>
+    <string name="rahat_area">19.6 km²</string>
 
-    <string name="Beer_sheva">Be\'er Sheva</string>
-    <string name="Beer_sheva_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="Beer_sheva_pop">215,452</string>
-    <string name="Beer_sheva_area">74.1 km²</string>
+<!--    <string name="Beer_sheva">Be\'er Sheva</string>-->
+<!--    <string name="Beer_sheva_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>-->
+<!--    <string name="Beer_sheva_pop">215,452</string>-->
+<!--    <string name="Beer_sheva_area">74.1 km²</string>-->
 
     <string name="palestine_map">Map</string>
     <string name="west_bank">West Bank</string>
