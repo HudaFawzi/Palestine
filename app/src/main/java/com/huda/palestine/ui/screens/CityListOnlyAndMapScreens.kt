@@ -17,7 +17,6 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -95,7 +94,6 @@ fun CityListOnlyAndMapContent(
     }
 }
 
-@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 private fun CityListItem(
     city: City, selected: Boolean, onCardClick: () -> Unit, modifier: Modifier = Modifier
@@ -124,7 +122,6 @@ private fun CityListItem(
                     .fillMaxSize()
                     .weight(1f),
                 verticalArrangement = Arrangement.Center,
-//                horizontalAlignment = Alignment.CenterHorizontally
             ) {
                 Text(
                     text = stringResource(city.cityName),
@@ -132,7 +129,7 @@ private fun CityListItem(
                     modifier = Modifier.padding(bottom = dimensionResource(R.dimen.card_text_vertical_space)),
                 )
                 Text(
-                    text = "Pop: " + stringResource(city.population),
+                    text = stringResource(R.string.pop) + stringResource(city.population),
                     style = MaterialTheme.typography.bodySmall,
                 )
                 Text(

@@ -186,5 +186,8 @@
     <string name="palee">PALEE</string>
     <string name="profile">profile</string>
     <string name="map">Map</string>
+    <string name="population">"Population: "</string>
+    <string name="area">"Area: "</string>
+    <string name="pop">"Pop: "</string>
 
 </resources>

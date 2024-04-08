@@ -14,12 +14,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.huda.palestine.R
 import com.huda.palestine.data.local.LocalCitiesDataProvider
 import com.huda.palestine.ui.AppUiState
 import com.huda.palestine.ui.theme.Shapes
@@ -47,16 +47,14 @@ fun CityDetailsScreen(
         Text(
             text = stringResource(cityUiState.currentSelectedCity.cityName),
             style = MaterialTheme.typography.displaySmall,
-            color = Color.Black,
             modifier = Modifier.padding(16.dp, 8.dp, 16.dp, 0.dp)
         )
 
         Column {
             Row {
                 Text(
-                    text = "Population: ",
+                    text = stringResource(R.string.population),
                     style = MaterialTheme.typography.bodyMedium,
-                    color = Color.Black,
                     modifier = Modifier.padding(16.dp, 8.dp, 0.dp, 4.dp),
 
                     )
@@ -64,23 +62,20 @@ fun CityDetailsScreen(
                 Text(
                     text = stringResource(cityUiState.currentSelectedCity.population),
                     style = MaterialTheme.typography.bodySmall,
-                    color = Color.Black,
                     modifier = Modifier.padding(0.dp, 10.dp, 8.dp, 4.dp)
                 )
             }
 
             Row {
                 Text(
-                    text = "Area: ",
+                    text = stringResource(R.string.area),
                     style = MaterialTheme.typography.bodyMedium,
-                    color = Color.Black,
                     modifier = Modifier.padding(16.dp, 0.dp, 0.dp, 8.dp)
                 )
 
                 Text(
                     text = stringResource(cityUiState.currentSelectedCity.area),
                     style = MaterialTheme.typography.bodySmall,
-                    color = Color.Black,
                     modifier = Modifier.padding(0.dp, 2.dp, 8.dp, 8.dp)
                 )
             }
@@ -112,16 +107,14 @@ fun DetailsPreview() {
         Text(
             text = stringResource(LocalCitiesDataProvider.defaultCity.cityName),
             style = MaterialTheme.typography.displaySmall,
-            color = Color.Black,
             modifier = Modifier.padding(16.dp, 8.dp, 16.dp, 0.dp)
         )
 
         Column {
             Row {
                 Text(
-                    text = "Population: ",
+                    text = stringResource(R.string.population),
                     style = MaterialTheme.typography.bodyMedium,
-                    color = Color.Black,
                     modifier = Modifier.padding(16.dp, 8.dp, 0.dp, 4.dp),
 
                     )
@@ -129,23 +122,20 @@ fun DetailsPreview() {
                 Text(
                     text = stringResource(LocalCitiesDataProvider.defaultCity.population),
                     style = MaterialTheme.typography.bodySmall,
-                    color = Color.Black,
                     modifier = Modifier.padding(0.dp, 10.dp, 8.dp, 4.dp)
                 )
             }
 
             Row {
                 Text(
-                    text = "Area: ",
+                    text = stringResource(R.string.area),
                     style = MaterialTheme.typography.bodyMedium,
-                    color = Color.Black,
                     modifier = Modifier.padding(16.dp, 0.dp, 0.dp, 8.dp)
                 )
 
                 Text(
                     text = stringResource(LocalCitiesDataProvider.defaultCity.area),
                     style = MaterialTheme.typography.bodySmall,
-                    color = Color.Black,
                     modifier = Modifier.padding(0.dp, 2.dp, 8.dp, 8.dp)
                 )
             }
