@@ -36,7 +36,7 @@ fun CityDetailsScreen(
     Column(modifier = modifier.verticalScroll(state = scrollState)) {
         Image(
             painter = painterResource(cityUiState.currentSelectedCity.cityImage),
-            contentDescription = null,
+            contentDescription = stringResource(R.string.current_selected_city_image),
             alignment = Alignment.TopCenter,
             contentScale = ContentScale.FillWidth,
             modifier = Modifier
@@ -96,7 +96,7 @@ fun DetailsPreview() {
     Column {
         Image(
             painter = painterResource(LocalCitiesDataProvider.defaultCity.cityImage),
-            contentDescription = null,
+            contentDescription = stringResource(R.string.city_image),
             alignment = Alignment.TopCenter,
             contentScale = ContentScale.FillWidth,
             modifier = Modifier

@@ -149,7 +149,7 @@ private fun CityListImageItem(city: City, modifier: Modifier = Modifier) {
     ) {
         Image(
             painter = painterResource(city.cityImage),
-            contentDescription = null,
+            contentDescription = stringResource(id = R.string.city_image),
             alignment = Alignment.Center,
             contentScale = ContentScale.Crop,
             modifier = Modifier.clip(

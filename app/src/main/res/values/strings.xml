@@ -189,5 +189,7 @@
     <string name="population">"Population: "</string>
     <string name="area">"Area: "</string>
     <string name="pop">"Pop: "</string>
+    <string name="current_selected_city_image">Current selected city image</string>
+    <string name="city_image">City image</string>
 
 </resources>
