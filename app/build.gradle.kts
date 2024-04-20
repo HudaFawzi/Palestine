@@ -11,7 +11,7 @@ android {
         applicationId = "com.huda.palestine"
         minSdk = 24
         targetSdk = 34
-        versionCode = 7
+        versionCode = 10
         versionName = "1.0"
         compileSdkPreview = "UpsideDownCake"
 
