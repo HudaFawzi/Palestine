@@ -5,9 +5,11 @@ import androidx.compose.foundation.gestures.rememberTransformableState
 import androidx.compose.foundation.gestures.transformable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.BoxWithConstraints
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -65,26 +67,40 @@ fun CityListOnlyAndMapContent(
     } else {
         // Show MapScreen
         var scale by remember { mutableFloatStateOf(1f) }
-        var rotation by remember { mutableFloatStateOf(0f) }
         var offset by remember { mutableStateOf(Offset.Zero) }
-        val state = rememberTransformableState { zoomChange, offsetChange, rotationChange ->
-            scale *= zoomChange
-            rotation += rotationChange
-            offset += offsetChange
-        }
-        Column(modifier = modifier) {
+
+        BoxWithConstraints(
+            modifier = modifier
+                .fillMaxWidth()
+                .aspectRatio(3543f / 7056f)
+        ) {
+            val state = rememberTransformableState { zoomChange, panChange, rotationChange ->
+                scale = (scale * zoomChange).coerceIn(1f, 10f)
+
+                val extraWidth = (scale - 1) * constraints.maxWidth
+                val extraHeight = (scale - 1) * constraints.maxHeight
+
+                val maxX = extraWidth / 2
+                val maxY = extraHeight / 2
+
+                offset = Offset(
+                    x = (offset.x + scale * panChange.x).coerceIn(-maxX, maxX),
+                    y = (offset.y + scale * panChange.y).coerceIn(-maxY, maxY),
+                )
+            }
+
             Image(
                 painter = painterResource(id = R.drawable.palestine_full),
                 contentDescription = stringResource(R.string.palestine_map),
                 modifier = Modifier
+                    .fillMaxWidth()
                     .graphicsLayer(
                         scaleX = scale,
                         scaleY = scale,
-                        rotationZ = rotation,
                         translationX = offset.x,
                         translationY = offset.y
                     )
-                    .fillMaxSize()
+
                     // add transformable to listen to multitouch transformation events
                     // after offset
                     .transformable(state = state),
