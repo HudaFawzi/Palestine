@@ -10,6 +10,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.aspectRatio
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -69,44 +70,46 @@ fun CityListOnlyAndMapContent(
         var scale by remember { mutableFloatStateOf(1f) }
         var offset by remember { mutableStateOf(Offset.Zero) }
 
-        BoxWithConstraints(
-            modifier = modifier
-                .fillMaxWidth()
-                .aspectRatio(3543f / 7056f)
-        ) {
-            val state = rememberTransformableState { zoomChange, panChange, rotationChange ->
-                scale = (scale * zoomChange).coerceIn(1f, 10f)
+            BoxWithConstraints(
+                modifier = modifier
+                    .fillMaxHeight()
+                    .aspectRatio(4000f / 7056f),
 
-                val extraWidth = (scale - 1) * constraints.maxWidth
-                val extraHeight = (scale - 1) * constraints.maxHeight
+                ) {
+                val state = rememberTransformableState { zoomChange, panChange, rotationChange ->
+                    scale = (scale * zoomChange).coerceIn(1f, 10f)
 
-                val maxX = extraWidth / 2
-                val maxY = extraHeight / 2
+                    val extraWidth = (scale - 1) * constraints.maxWidth
+                    val extraHeight = (scale - 1) * constraints.maxHeight
 
-                offset = Offset(
-                    x = (offset.x + scale * panChange.x).coerceIn(-maxX, maxX),
-                    y = (offset.y + scale * panChange.y).coerceIn(-maxY, maxY),
+                    val maxX = extraWidth / 2
+                    val maxY = extraHeight / 2
+
+                    offset = Offset(
+                        x = (offset.x + scale * panChange.x).coerceIn(-maxX, maxX),
+                        y = (offset.y + scale * panChange.y).coerceIn(-maxY, maxY),
+                    )
+                }
+
+                Image(
+                    painter = painterResource(id = R.drawable.palestine_full),
+                    contentDescription = stringResource(R.string.palestine_map),
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .graphicsLayer(
+                            scaleX = scale,
+                            scaleY = scale,
+                            translationX = offset.x,
+                            translationY = offset.y
+                        )
+
+                        // add transformable to listen to multitouch transformation events
+                        // after offset
+                        .transformable(state = state),
+                    contentScale = ContentScale.FillHeight,
                 )
             }
 
-            Image(
-                painter = painterResource(id = R.drawable.palestine_full),
-                contentDescription = stringResource(R.string.palestine_map),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .graphicsLayer(
-                        scaleX = scale,
-                        scaleY = scale,
-                        translationX = offset.x,
-                        translationY = offset.y
-                    )
-
-                    // add transformable to listen to multitouch transformation events
-                    // after offset
-                    .transformable(state = state),
-                contentScale = ContentScale.FillHeight
-            )
-        }
     }
 }
 
