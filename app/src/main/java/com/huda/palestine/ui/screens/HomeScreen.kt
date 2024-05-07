@@ -193,13 +193,21 @@ private fun AppBottomNavigationBar(
 ) {
     NavigationBar(modifier = modifier) {
         for (navItem in navigationItemContentList) {
-            NavigationBarItem(selected = currentTab == navItem.section,
+            NavigationBarItem(
+                selected = currentTab == navItem.section,
                 onClick = { onTabPressed(navItem.section) },
                 icon = {
                     Icon(
                         imageVector = navItem.icon, contentDescription = navItem.text
                     )
-                })
+                },
+                label = {
+                    Text(
+                        text = navItem.text,
+                        modifier = Modifier.padding(horizontal = dimensionResource(R.dimen.drawer_padding_header))
+                    )
+                }
+            )
         }
     }
 }
